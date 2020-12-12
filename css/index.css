@@ -90,6 +90,8 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -125,28 +127,32 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
-    justify-content: space-evenly;
+.nav {
+    clear: both;
+    overflow: auto;
 }
 
-nav ul {
-    margin: 0;
-    padding-bottom: .5;
-    list-style: none;
+nav {
+    float: center;
+    padding-bottom: 2%;
 }
 
-nav li {
+.logo img {
+    padding-left: 14%;
+}
+
+ul li {
     display: inline-block;
-    justify-content: center space-between;
-    margin-left: 80px;
-    font-size: 100%;
-    font: inherit;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    padding-left: 5%;
 }
 
-.navigation {
-    color: black;
-    font: inherit;
+.top-photo {
+    padding-bottom: 2%;
 }
 
 blockquote,
